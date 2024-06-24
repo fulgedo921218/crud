@@ -56,9 +56,9 @@
             text-align: center;
         }
         .formDatos{
-            border: 1px solid black; /* Borde sólido de 2px de ancho y color naranja */
+            border: 1px solid black; 
             border-radius: 5%;
-            padding: 20px; /* Espacio interno para contenido */
+            padding: 20px; 
             margin-bottom: 5px;
                 background: white;
         }
@@ -70,20 +70,18 @@
             margin-bottom: 10px !important;
             border-radius: 5%;
         }
-        /* Estilo personalizado para el checkbox */
-        .form-check-input:checked {
-            background-color: #b62028 !important; /* Cambia el color del fondo del check a rojo */
-            border-color: #b62028 !important; /* Cambia el color del borde del check a rojo */
-        }
 
-        /* Estilo personalizado para el tick mark (check mark) */
+        .form-check-input:checked {
+            background-color: #b62028 !important; 
+            border-color: #b62028 !important; 
+        }
         .form-check-input:checked::before {
-            content: ''; /* Asegúrate de que el tick mark esté presente */
+            content: '';
             display: block;
             width: 12px;
             height: 12px;
-            background-color: white; /* Cambia el color del tick mark a blanco */
-            border-radius: 50%; /* Forma redondeada para el tick mark */
+            background-color: white; 
+            border-radius: 50%; 
             position: absolute;
             top: 50%;
             left: 50%;
